@@ -26,13 +26,11 @@ jobs:
       - name: Deploy to Server
         run: echo "deploy"
 
-  deploy:
+ deploy:
     runs-on: ubuntu-latest
-  
     strategy:
       matrix:
         node-version: [16.x]
-  
     steps:
       - name: Build app on VM
         uses: appleboy/ssh-action@master
