@@ -30,7 +30,7 @@ export default function Home() {
 
         <div>
           <h5 className={inter.className}>
-            Navika Berlianda Rihadatul'aisya' | 505243
+            Navika Berlianda Rihadatul aisya | 505243
           </h5>
         </div>
       </main>
